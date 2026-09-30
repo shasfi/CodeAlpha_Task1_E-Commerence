@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8f7f4" />
+  <meta name="description" content="MONO. — A curated collection of considered essentials for work and everyday life. CodeAlpha full stack internship project." />
+  <title>MONO. — Everyday, better.</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M4.8 8.5h14.4l1.1 12H3.7l1.1-12Z"/><path d="M8.5 9V6a3.5 3.5 0 0 1 7 0v3"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="7.5" r="3.5"/><path d="M4.5 20v-2a7.5 7.5 0 0 1 15 0v2"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.7" cy="10.7" r="6.7"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5.5 5.5L20 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m8 5 7 7-7 7"/></symbol>
+    <symbol id="i-package" viewBox="0 0 24 24"><path d="m12 2 9 5v10l-9 5-9-5V7l9-5Zm-9 5 9 5 9-5M12 12v10"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 6h13v11H2zM15 10h4l3 4v3h-7z"/><circle cx="6.5" cy="18" r="2"/><circle cx="18.5" cy="18" r="2"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5L12 2Z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></symbol>
+  </svg>
+  <div class="announcement"><span>THE CONSIDERED COLLECTION</span><span class="announcement-divider">✳</span><span>Everyday essentials, thoughtfully selected.</span></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand" data-home aria-label="MONO Home">mono<span class="brand-dot">.</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#shop" data-shop>Shop all</a>
+        <a href="#shop" data-category="Workspace">Workspace</a>
+        <a href="#shop" data-category="Audio">Audio</a>
+        <a href="#story" data-story>Our story</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-toggle" id="search-toggle" type="button" aria-label="Search products"><svg><use href="#i-search"/></svg></button>
+        <button class="icon-button user-toggle" id="account-toggle" type="button" aria-label="Account"><svg><use href="#i-user"/></svg></button>
+        <button class="icon-button cart-toggle" id="cart-toggle" type="button" aria-label="Open shopping bag"><svg><use href="#i-bag"/></svg><span class="cart-count" id="cart-count" hidden>0</span></button>
+        <button class="icon-button mobile-menu-toggle" id="menu-toggle" type="button" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+    <div class="search-row" id="search-row" hidden><div class="container search-inner"><svg class="small-icon"><use href="#i-search"/></svg><input type="search" id="global-search" placeholder="Search the collection..." aria-label="Search products" autocomplete="off"/><button type="button" id="close-search" class="search-close" aria-label="Close search"><svg><use href="#i-close"/></svg></button></div></div>
+    <div class="mobile-nav" id="mobile-nav" hidden><a href="#shop" data-shop>Shop all</a><a href="#shop" data-category="Workspace">Workspace</a><a href="#shop" data-category="Audio">Audio</a><a href="#story" data-story>Our story</a></div>
+  </header>
+  <main id="page"><div class="container loading-state"><div class="loader"></div><p>Loading the collection...</p></div></main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top"><div><a href="/" class="brand footer-brand" data-home>mono<span class="brand-dot">.</span></a><p>Good things. Better days.<br/>Thoughtfully chosen everyday essentials.</p></div><div class="footer-columns"><div><h4>Explore</h4><a href="#shop" data-shop>All products</a><a href="#shop" data-category="Workspace">Workspace</a><a href="#shop" data-category="Audio">Audio</a></div><div><h4>Account</h4><button type="button" data-account>My account</button><button type="button" data-orders>Order history</button><a href="#story" data-story>About MONO.</a></div></div></div>
+      <div class="footer-bottom"><span>© <span id="year">2026</span> MONO. All rights reserved.</span><span>CodeAlpha Full Stack Internship Project · Demo orders only; no real charges or shipping.</span></div>
+    </div>
+  </footer>
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="drawer" id="cart-drawer" role="dialog" aria-modal="true" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-head"><div><span class="eyebrow">YOUR SELECTION</span><h2>Your bag <span id="drawer-count">(0)</span></h2></div><button type="button" class="round-close" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button></div>
+    <div class="drawer-items" id="drawer-items"></div>
+    <div class="drawer-bottom" id="drawer-bottom"></div>
+  </aside>
+  <section class="modal" id="auth-modal" role="dialog" aria-modal="true" aria-labelledby="auth-title" aria-hidden="true">
+    <button type="button" class="round-close modal-close" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    <div class="modal-inner"><span class="eyebrow">WELCOME TO MONO.</span><h2 id="auth-title">Good to see you.</h2><p class="modal-subtitle" id="auth-subtitle">Sign in to continue where you left off.</p>
+      <div class="auth-tabs" role="tablist"><button type="button" class="active" data-auth-tab="login">Sign in</button><button type="button" data-auth-tab="register">Create account</button></div>
+      <form id="auth-form"><div class="form-field" id="auth-name-wrap" hidden><label for="auth-name">Full name</label><input type="text" id="auth-name" name="name" autocomplete="name" placeholder="Your name" minlength="2" maxlength="70"/></div><div class="form-field"><label for="auth-email">Email address</label><input type="email" id="auth-email" name="email" autocomplete="email" placeholder="you@example.com" required maxlength="254"/></div><div class="form-field"><div class="field-label"><label for="auth-password">Password</label><span id="password-hint" hidden>At least 8 characters</span></div><input type="password" id="auth-password" name="password" autocomplete="current-password" placeholder="Enter your password" required minlength="8" maxlength="128"/></div><div class="form-error" id="auth-error" role="alert" hidden></div><button class="button primary wide" type="submit" id="auth-submit">Sign in <svg><use href="#i-arrow"/></svg></button></form>
+      <p class="auth-note">This is a portfolio demo. No payment details are collected.</p>
+    </div>
+  </section>
+  <section class="modal checkout-modal" id="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title" aria-hidden="true">
+    <button type="button" class="round-close modal-close" data-close aria-label="Close"><svg><use href="#i-close"/></svg></button>
+    <div class="modal-inner"><span class="eyebrow">ALMOST THERE</span><h2 id="checkout-title">Your details</h2><p class="modal-subtitle">This is a demo checkout. No real payment or delivery takes place.</p>
+      <form id="checkout-form"><div class="two-fields"><div class="form-field"><label for="ship-name">Full name</label><input required minlength="2" maxlength="90" id="ship-name" name="name" autocomplete="name" placeholder="Full name"/></div><div class="form-field"><label for="ship-email">Email address</label><input type="email" required maxlength="254" id="ship-email" name="email" autocomplete="email" placeholder="Email address"/></div></div><div class="two-fields"><div class="form-field"><label for="ship-phone">Phone number</label><input type="tel" required minlength="7" maxlength="35" id="ship-phone" name="phone" autocomplete="tel" placeholder="03XX XXXXXXX"/></div><div class="form-field"><label for="ship-city">City</label><input required minlength="2" maxlength="70" id="ship-city" name="city" autocomplete="address-level2" placeholder="Your city"/></div></div><div class="form-field"><label for="ship-address">Address</label><input required minlength="8" maxlength="280" id="ship-address" name="address" autocomplete="street-address" placeholder="Street address"/></div><div class="form-field"><label for="ship-notes">Order note <span class="muted">(optional)</span></label><textarea rows="2" maxlength="500" id="ship-notes" name="notes" placeholder="Anything to add?"></textarea></div><div class="checkout-summary"><span>Order total</span><strong id="checkout-total">Rs 0</strong></div><div class="form-error" id="checkout-error" role="alert" hidden></div><button class="button primary wide" id="place-order" type="submit">Place demo order <svg><use href="#i-arrow"/></svg></button></form>
+    </div>
+  </section>
+  <div class="toast" role="status" aria-live="polite" id="toast"></div>
+  <script src="/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img"><defs>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#59645d"/><stop offset=".42" stop-color="#333d38"/><stop offset="1" stop-color="#151f1a"/></linearGradient>
+ <linearGradient id="darkSide" x1="0" x2="1"><stop stop-color="#202b24"/><stop offset=".42" stop-color="#6e776c"/><stop offset="1" stop-color="#2a332b"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f7f0"/><stop offset=".47" stop-color="#d2d7d0"/><stop offset="1" stop-color="#999f95"/></linearGradient>
+ <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7e3d9"/><stop offset="1" stop-color="#a9ab9f"/></linearGradient>
+ <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ba89a"/><stop offset=".7" stop-color="#5b7567"/><stop offset="1" stop-color="#385346"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ </defs><ellipse cx="256" cy="406" rx="133" ry="16" fill="#26362d" opacity=".14" filter="url(#shadow)"/>
+ <!-- device on angled dock --><g transform="rotate(-15 248 241)"><rect x="185" y="82" width="139" height="246" rx="22" fill="#3c4d46" stroke="#a4b6a7" stroke-width="4"/><rect x="195" y="91" width="119" height="225" rx="15" fill="url(#dark)"/><rect x="242" y="98" width="28" height="4" rx="2" fill="#99a8a0"/><circle cx="254" cy="198" r="41" fill="none" stroke="#90bd9d" opacity=".36" stroke-width="2"/><path d="m259 178-16 24h15l-7 22 24-30h-16Z" fill="#bdd7c2" opacity=".65"/></g>
+ <!-- stand -->
+ <path d="m258 309 63 65h-27l-48-51Z" fill="url(#silver)"/><path d="M192 365h139l29 23q-102 19-194 0Z" fill="#aab4aa"/><ellipse cx="262" cy="379" rx="98" ry="17" fill="url(#silver)"/><ellipse cx="261" cy="380" rx="62" ry="5" fill="#d7dfd5"/></svg>

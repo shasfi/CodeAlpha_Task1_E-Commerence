@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img"><defs>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#59645d"/><stop offset=".42" stop-color="#333d38"/><stop offset="1" stop-color="#151f1a"/></linearGradient>
+ <linearGradient id="darkSide" x1="0" x2="1"><stop stop-color="#202b24"/><stop offset=".42" stop-color="#6e776c"/><stop offset="1" stop-color="#2a332b"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f7f0"/><stop offset=".47" stop-color="#d2d7d0"/><stop offset="1" stop-color="#999f95"/></linearGradient>
+ <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7e3d9"/><stop offset="1" stop-color="#a9ab9f"/></linearGradient>
+ <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ba89a"/><stop offset=".7" stop-color="#5b7567"/><stop offset="1" stop-color="#385346"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ </defs>
+ <ellipse cx="260" cy="414" rx="138" ry="19" fill="#17231d" opacity=".13" filter="url(#shadow)"/>
+ <!-- thick arched headband -->
+ <path d="M111 277 C91 135 152 77 248 75 C351 72 409 145 386 281" fill="none" stroke="#1d2923" stroke-width="54" stroke-linecap="round"/>
+ <path d="M112 260 C100 145 160 90 248 89 C342 88 397 154 386 260" fill="none" stroke="url(#darkSide)" stroke-width="36" stroke-linecap="round"/>
+ <path d="M127 176 C150 111 194 91 254 93 C313 96 351 117 373 182" fill="none" stroke="#9aab9c" stroke-opacity=".55" stroke-width="6"/>
+ <path d="M136 203 C170 131 215 116 254 119 C313 125 336 147 363 203" fill="none" stroke="#0e1c16" stroke-width="10" opacity=".8"/>
+ <!-- adjustment arms -->
+ <path d="M123 243 133 326" stroke="#a7afa6" stroke-width="17" stroke-linecap="round"/>
+ <path d="M375 242 364 328" stroke="#acb1a6" stroke-width="17" stroke-linecap="round"/>
+ <!-- cushions left -->
+ <g transform="rotate(-11 134 321)"><rect x="98" y="248" width="85" height="161" rx="41" fill="#1a241f"/><rect x="111" y="254" width="75" height="151" rx="37" fill="url(#darkSide)"/><ellipse cx="135" cy="330" rx="24" ry="64" fill="#141c19"/><ellipse cx="139" cy="332" rx="12" ry="47" fill="#26352e"/></g>
+ <!-- right cups, bigger -->
+ <g transform="rotate(9 358 326)"><rect x="322" y="244" width="79" height="170" rx="38" fill="#161f1a"/><rect x="315" y="248" width="76" height="166" rx="36" fill="url(#darkSide)"/><rect x="301" y="262" width="70" height="143" rx="34" fill="url(#dark)" stroke="#657369" stroke-width="2"/><path d="M313 280c25-19 50-13 51 5" fill="none" stroke="#89978c" stroke-width="2" opacity=".35"/><path d="M312 385c22 16 40 10 54-4" fill="none" stroke="#010c05" stroke-width="4" opacity=".4"/><text x="336" y="334" text-anchor="middle" font-size="20" font-family="Arial" font-weight="700" fill="#d4dacf" opacity=".55">m</text></g>
+</svg>

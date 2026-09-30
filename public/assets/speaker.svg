@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img"><defs>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#59645d"/><stop offset=".42" stop-color="#333d38"/><stop offset="1" stop-color="#151f1a"/></linearGradient>
+ <linearGradient id="darkSide" x1="0" x2="1"><stop stop-color="#202b24"/><stop offset=".42" stop-color="#6e776c"/><stop offset="1" stop-color="#2a332b"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f7f0"/><stop offset=".47" stop-color="#d2d7d0"/><stop offset="1" stop-color="#999f95"/></linearGradient>
+ <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7e3d9"/><stop offset="1" stop-color="#a9ab9f"/></linearGradient>
+ <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ba89a"/><stop offset=".7" stop-color="#5b7567"/><stop offset="1" stop-color="#385346"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ <pattern id="patternmesh" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#526459"/><circle cx="1" cy="2" r=".75" fill="#273a2d"/><circle cx="4" cy="5" r=".75" fill="#273a2d"/></pattern></defs><ellipse cx="257" cy="392" rx="118" ry="18" fill="#26362d" opacity=".12" filter="url(#shadow)"/>
+ <rect x="145" y="106" width="224" height="285" rx="107" fill="url(#dark)"/><rect x="154" y="111" width="207" height="273" rx="99" fill="#414d44"/><rect x="161" y="124" width="193" height="251" rx="93" fill="url(#patternmesh)" stroke="#9aa69c" stroke-width="2"/>
+ <rect x="209" y="128" width="12" height="235" rx="6" fill="#fff" opacity=".035"/>
+ <circle cx="256" cy="251" r="78" stroke="#a1aaa0" stroke-width="2" opacity=".33"/><circle cx="256" cy="251" r="65" fill="#202d26" opacity=".2"/><circle cx="256" cy="251" r="41" fill="#415348" opacity=".18"/>
+ <path d="M243 136h27" stroke="#e7ece0" stroke-width="5" stroke-linecap="round"/><circle cx="257" cy="352" r="3" fill="#a9d0a6"/>
+ </svg>

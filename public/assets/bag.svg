@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img"><defs>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#59645d"/><stop offset=".42" stop-color="#333d38"/><stop offset="1" stop-color="#151f1a"/></linearGradient>
+ <linearGradient id="darkSide" x1="0" x2="1"><stop stop-color="#202b24"/><stop offset=".42" stop-color="#6e776c"/><stop offset="1" stop-color="#2a332b"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f7f0"/><stop offset=".47" stop-color="#d2d7d0"/><stop offset="1" stop-color="#999f95"/></linearGradient>
+ <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e7e3d9"/><stop offset="1" stop-color="#a9ab9f"/></linearGradient>
+ <linearGradient id="sage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ba89a"/><stop offset=".7" stop-color="#5b7567"/><stop offset="1" stop-color="#385346"/></linearGradient>
+ <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+ </defs><ellipse cx="253" cy="420" rx="135" ry="14" fill="#26362d" opacity=".12" filter="url(#shadow)"/>
+ <path d="M175 159c-7-64 20-94 76-94s87 37 78 94" fill="none" stroke="#6e7965" stroke-width="20" stroke-linecap="round"/>
+ <path d="M175 156c-7-58 21-84 76-84s81 30 78 83" fill="none" stroke="#d4dbca" stroke-width="10" stroke-linecap="round"/>
+ <path d="M125 145 381 145 398 398q-144 36-287 0Z" fill="url(#sage)" stroke="#718475" stroke-width="3"/><path d="M126 147q129 27 254-2l-3 25q-119 19-247 0Z" fill="#a4b2a4"/>
+ <path d="M149 172q-4 127-4 205M362 168q6 139 10 211" stroke="#d5ded3" opacity=".36" stroke-width="3"/>
+ <rect x="180" y="246" width="146" height="98" rx="8" fill="#829486" stroke="#b9c8b6" stroke-width="2"/><path d="M193 247h120" stroke="#e4e9df" stroke-width="3"/><text x="251" y="301" text-anchor="middle" font-family="Arial" font-size="17" letter-spacing="4" fill="#d7e0d4">mono.</text>
+ <path d="M158 146v-29a20 20 0 0 1 20-20" fill="none" stroke="#b4c4b1" stroke-width="4" opacity=".8"/></svg>
